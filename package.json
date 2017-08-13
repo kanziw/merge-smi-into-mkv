@@ -1,0 +1,22 @@
+{
+  "name": "merge-smi-into-mkv",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kanziw/merge-smi-into-mkv.git"
+  },
+  "author": "kanziw",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kanziw/merge-smi-into-mkv/issues"
+  },
+  "homepage": "https://github.com/kanziw/merge-smi-into-mkv#readme",
+  "dependencies": {
+    "shelljs": "^0.7.8"
+  }
+}
