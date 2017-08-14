@@ -22,7 +22,7 @@
 * smi -> srt 변환은 아래의 사이트를 통해 수행하였다.
   * https://subtitletools.com/convert-to-srt
     * zip 으로 묶으면 최대 100개 까지 동시에 변환할 수 있다.
-  * [극내 사이트 링크](http://smisrt.com/) 에서도 수행할 수 있었지만, 이 링크는 한번에 1개의 파일밖에 되지 않는다.
+  * [국내 사이트 링크](http://smisrt.com/) 에서도 수행할 수 있었지만, 이 링크는 한번에 1개의 파일밖에 되지 않는다.
   * 변환 이후 더 찾아보니 command line 을 이용해 변환 가능한 툴이 있는 것을 확인했다.
     * [방법1](https://github.com/ewoo/smi-to-srt)
     * [방법2](https://superuser.com/questions/117929/open-source-command-line-subtitle-converter)
@@ -31,7 +31,7 @@
   * 설치 완료 후 `mkvtoolnix-gui` 를 이용하면 gui 툴로도 작업할 수 있다.
   * Sample command : `mkvmerge -o ../SlamDunk/SlamDunk001.mkv Slam\ Dunk.1993.EP001.x264.AC3-CalChi.mkv --language 0:kor Slam\ Dunk.1993.EP001.x264.AC3-CalChi.srt`
 * 일단 내가 필요한 만큼의 작업은 [링크](https://github.com/kanziw/merge-smi-into-mkv/blob/c2a1b2c397e20beebb2961286d006f1091a69d8c/index.js)의 코드로도 충분하기 때문에 더이상의 폴리싱은 하지 않았다.
-* 나중에 필요하면 아래의 내용이 더 추가되면 좋겠다.
+* 나중에 필요하면 아래의 내용을 더 추가하면 좋겠다.
   1. smi -> srt 변환을 command line 으로 수행
   2. input directory 를 받아 output directory 에 결과물을 저장하는 기능
     * 매칭되는 mkv - smi 파일이 모두 존재하는지 check 필요
